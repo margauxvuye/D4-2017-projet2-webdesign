@@ -1,0 +1,218 @@
+body {
+  background-color: #fff;
+  color: #ce4c66;
+}
+
+section {
+
+}
+
+.container {
+  max-width: 46em;
+  margin : 0 auto;
+}
+
+.personnality {
+  background-color: white;
+  color: #ce4c66;
+  padding : 2em;
+}
+
+.experiences {
+  background-color: #ce4c66;
+  color: #fff;
+  padding : 2em;
+}
+
+.works {
+  background-color: #ce4c66;
+  color: #fff;
+  padding : 2em;
+}
+
+.gallery {
+  background-color: white;
+  color: #ce4c66;
+  padding : 2em;
+}
+
+footer::before {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%) rotate(45deg);
+  background-color: white;
+}
+
+.personnality::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20%) rotate(45deg);
+  background-color: white;
+}
+
+
+.works::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20%) rotate(45deg);
+  background-color: #ce4c66;
+}
+
+
+
+header{
+  background-color: #ce4c66;
+  color: #fff;
+  padding : 2em;
+}
+
+header::after {
+  content: " ";
+  display: block;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-60%) rotate(45deg);
+  background-color: #ce4c66;
+}
+
+#cercle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #ce4c66;
+    background: #ce4c66;
+    transform: translateY(400%);
+}
+
+#parent{
+  display: flex;
+  justify-content: center;
+}
+
+.nastyadvert {
+  background-image: url(img1.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.nastyadvert h1 {
+  font-size: 7em;
+  font-family: 'Abril Fatface', cursive;
+  color: #fff;
+  text-align: center;
+}
+
+.nastyadvert p {
+  font-size: 3em;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  color: #fff;
+}
+
+.nastyadvert .container {
+  position: absolute;
+  top: 50%;
+  left : 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.nastyadvert::after {
+  content: " ";
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  background-color: #ce4c66;
+}
+
+
+footer{
+  background-color: #ce4c66;
+  color: #fff;
+  padding : 2em;
+}
+
+.linklist {
+  list-style-type: none;
+  text-align: center;
+}
+
+.linklist li {
+  margin: 2em;
+}
+
+.linklist a {
+  color: #efb247;
+}
+
+.flex-container {
+  padding: 50;
+  margin: 50;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-container li {
+  max-width: 550px;
+}
+
+.flex-container li img {
+  width : 100%;
+  filter: grayscale(100);
+}
+
+.flex-container li img:hover {
+  width : 100%;
+  filter: grayscale(0);
+}
+
+@media (max-width: 1095px){
+  #cercle {
+    width: 15px;
+    height: 15px;
+  }
+
+  header::after {
+      width: 75px;
+      height: 75px;
+      transform: translateX(-50%) translateY(-13%) rotate(45deg);
+            }
+      footer::before {
+      width: 62px;
+      height: 62px;
+      transform: translateX(-50%) translateY(-101%) rotate(45deg);
+            }
+      .works::after {
+        width: 75px;
+        height: 75px;
+        transform: translateX(-50%) translateY(-13%) rotate(45deg);
+                }
+      .personnality::after {
+          width: 75px;
+          height: 75px;
+          transform: translateX(-50%) translateY(-13%) rotate(45deg);
+                          }
