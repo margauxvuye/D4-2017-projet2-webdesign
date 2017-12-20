@@ -8,14 +8,14 @@ h1, h2, h3, h4 {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: inherit;
   line-height: 1.2;
-  color: #efb247;
+  color: #5338ed;
   text-align: center;
 }
 
 h1 {
   margin-top: 0;
   font-size: 6.854em;
-  color: #fff;
+  color: #5338ed;
 text-align: center;
 }
 
@@ -27,7 +27,7 @@ text-align: center;
 h2 {
   margin-top: 3;
   font-size: 4.236em;
-  color: #efb247;
+  color: #5338ed;
 text-align: center;
 }
 
